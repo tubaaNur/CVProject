@@ -15,8 +15,78 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyPhoto" id="NFM-Hh-2GC">
+                                <rect key="frame" x="56" y="209" width="268" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaZ-EA-GfL">
+                                <rect key="frame" x="37" y="416" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IOS Developer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpe-ws-Ja9">
+                                <rect key="frame" x="121" y="395" width="140" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUP-Mr-r7W">
+                                <rect key="frame" x="37" y="437" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Work Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sh-Wi-orO">
+                                <rect key="frame" x="37" y="654" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Licenses &amp; certifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwh-bn-Esm">
+                                <rect key="frame" x="37" y="708" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttO-eD-5Lp">
+                                <rect key="frame" x="16" y="466" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- Beykent Üniversitesi Computer Engineering" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-r3-Oli">
+                                <rect key="frame" x="37" y="466" width="318" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="W7w-s0-lpd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="- Beykent Üniversitesi Industrial Engineering" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciR-YE-YUl">
+                                <rect key="frame" x="37" y="500" width="318" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="leading" secondItem="Zwh-bn-Esm" secondAttribute="leading" id="0A3-ir-iPb"/>
+                            <constraint firstItem="BaZ-EA-GfL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="1Ix-jm-qbF"/>
+                            <constraint firstItem="aYu-r3-Oli" firstAttribute="top" secondItem="OUP-Mr-r7W" secondAttribute="bottom" constant="8" id="2J8-9C-khp"/>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="top" secondItem="NFM-Hh-2GC" secondAttribute="bottom" constant="53" id="669-6A-xUU"/>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="leading" secondItem="aYu-r3-Oli" secondAttribute="leading" id="Ib1-h8-Jvg"/>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="239.66666666666669" id="Sb5-4a-Gms"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jpe-ws-Ja9" secondAttribute="trailing" constant="132" id="TNB-eA-AlS"/>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="leading" secondItem="7sh-Wi-orO" secondAttribute="leading" id="XTo-pq-EKO"/>
+                            <constraint firstItem="jpe-ws-Ja9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="csN-Wo-YTF"/>
+                            <constraint firstItem="jpe-ws-Ja9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="197.66666666666669" id="dLK-hM-EWJ"/>
+                            <constraint firstItem="OUP-Mr-r7W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="unC-58-Xls"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Tuba Nur Yeşiltaş" prompt="CV Project" id="aov-co-TjT">
                         <barButtonItem key="backBarButtonItem" title="Home " id="e3a-ha-E4X"/>
@@ -41,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="758" y="4"/>
+            <point key="canvasLocation" x="756.48854961832058" y="3.5211267605633805"/>
         </scene>
         <!--Add Experience-->
         <scene sceneID="bld-FJ-f9k">
@@ -127,6 +197,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="MyPhoto" width="1024" height="768"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
