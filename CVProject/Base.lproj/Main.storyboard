@@ -24,6 +24,9 @@
                             <barButtonItem systemItem="save" id="fSO-ys-Tsf"/>
                             <barButtonItem systemItem="add" id="grH-qf-RzL">
                                 <color key="tintColor" red="0.54370359840000004" green="0.12146730209999999" blue="0.18414916379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <segue destination="fXO-ZM-lSo" kind="show" id="fiN-A6-u7B"/>
+                                </connections>
                             </barButtonItem>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
@@ -38,7 +41,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947.32824427480909" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="758" y="4"/>
+        </scene>
+        <!--Add Experience-->
+        <scene sceneID="bld-FJ-f9k">
+            <objects>
+                <viewController id="fXO-ZM-lSo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="beV-kU-94E">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JIK-fl-RI1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Experience" id="w24-6q-chH">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="cancel" id="h61-ys-LAK"/>
+                            <barButtonItem systemItem="done" id="VKT-yl-G0u"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAt-uG-l5A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1442" y="4"/>
         </scene>
         <!--Contact Information-->
         <scene sceneID="KsD-Cp-4yA">
@@ -51,12 +75,37 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Contact Information" id="yul-qp-yzB">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yRf-Pi-u81"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yRf-Pi-u81">
+                            <connections>
+                                <segue destination="BGd-4L-utf" kind="show" id="b4R-UW-0b7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftk-Qz-2fK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1626" y="14"/>
+            <point key="canvasLocation" x="2106" y="4"/>
+        </scene>
+        <!--Add Information-->
+        <scene sceneID="IYJ-Z4-Qld">
+            <objects>
+                <viewController id="BGd-4L-utf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ljB-uz-NVT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qw0-sU-ds7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Information" id="kON-Jx-hX7">
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="cancel" id="2wf-4E-BXk"/>
+                            <barButtonItem systemItem="done" id="vqX-5y-6pn"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tg9-oa-707" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2784" y="13"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R7Q-cf-PKY">
@@ -64,7 +113,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ssN-Re-pfv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="yqu-IL-R7j">
-                        <rect key="frame" x="0.0" y="59" width="393" height="104.33333333333334"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
